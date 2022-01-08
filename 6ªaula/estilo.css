@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.imagem-carrossel{
+    object-fit: cover;
+    height:400px;
+    object-position: 0 70%;
+}
+
+.fonte-oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.background:hover{
+    background-color: blue !important;
+    color:white !important;
+}
+
+.imagem-card{
+    object-fit: cover;
+    height:120px;
+    width: auto;
+    object-position: 40% 70%;
+}

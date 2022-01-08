@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repat(2,1fr);
+    grid-template-rows: repeat(5,20vh);
+}
+header{
+    background-color: palegreen;
+    display: grid;
+    grid-template-columns: 15vw 80vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header>h1{
+    background-color:orangered;
+    height:90%;
+}
+h1{
+    font-size: 1.2em;
+}
+header>nav{
+    background-color:mediumorchid;
+}
+
+main{
+    background-color: midnightblue;
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-row: 2/5;   
+}
+section{
+    background-color: rebeccapurple;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+article{
+    background-color: salmon;
+}
+aside{
+    background-color: royalblue;
+}
+footer{
+    background-color: navy;
+}
