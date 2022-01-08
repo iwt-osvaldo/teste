@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Essa é a página inicial</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend><br>
+            <label for="texto_id">Nome:</label><br>
+            <input type="text" maxlength="11" size="20"name="" id="texto_id" placeholder="Digite seu nome." required>
+            <br/>
+            <label for="idade_id">Idade</label><br>
+            <input type="number" name="" id="idade_id" min="0">
+            <br/>
+            <label for="email_id">email:</label><br>
+            <input type="email" name="" id="email_id">
+            <br/>
+            <label for="ocupacao_id">ocupação:</label><br>
+            <input type="text" name="" id="ocupacao_id">
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label for="">Linguagen de programação</label>
+            <select name="programacao" id="">
+                <optgroup label="backend">
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="java" selected>Java</option>
+                </optgroup>
+                <optgroup label="frontend">
+                    <option value="">HTML</option>
+                    <option value="">JSP</option>
+                    <option value="">Wix</option>
+                </optgroup>
+            </select>
+            Nacionalidade
+            <br>
+            <select name="" id="">
+                <option value="1">brasileiro</option>
+                <option value="">estadunidense</option>
+                <option value="">japonês</option>
+                <option value="">francês</option>
+                <option value="">australiano</option>
+            </select>
+            <br/>
+            <label for="junior">junior</label><input type="radio" name="nivel" id="junior">
+            <label for="pleno">pleno</label><input type="radio" name="nivel" id="pleno">
+            <label for="senior">senior</label><input type="radio" name="nivel" id="senior">
+            <br>
+            Conhecimentos adicionais
+            <br>
+            <label for="">mysql</label><input type="checkbox" name="" id="">
+            <label for="">postgress</label><input type="checkbox" name="" id="">
+            <label for="">mongo</label><input type="checkbox" name="" id="">
+            <label for="">azure</label><input type="checkbox" name="" id="">
+            <label for="">aws</label><input type="checkbox" name="" id="">
+            <br>
+            <textarea name="" id="" cols="40" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="salvar">
+        <input type="reset" value="limpar">
+        <button>isso é um botão</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            margin:10px;
+        }
+        #container{
+            border:3px solid #000;
+            border-radius: 5px;
+            box-shadow: 60px 30px 10px rgba(255,0,255,0.8);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <form action="#" method="post">
+        <label for="nome_id">Nome: </label><input type="text" name="" id="nome_id" size="61" required>
+        <br/>
+        Gênero:
+        <input type="radio" name="sexo" id="masculino"><label for="masculino">masculino</label>
+        <input type="radio" name="sexo" id="feminino"><label for="feminino">feminino</label>
+        <br/>
+        <label for="">Doc. de Identificação (tipo):</label>
+        <select name="documento" id="documento_id">
+            <option value="" selected disabled>Selecione</option>
+            <option value="">RG</option>
+            <option value="">CPF</option>
+            <option value="">CNH</option>
+            <option value="">CTPS</option>
+        </select>
+        <label for="">Número:</label>
+        <input type="text" name="" id="">
+        <br/>
+        <label for="">Faixa etária</label>
+        <select name="" id="">
+            <option value="" selected disabled>Selecione</option>
+            <option value="">0 a 17 anos</option>
+            <option value="">18 a 29 anos</option>
+            <option value="">30 a 39 anos</option>
+            <option value="">40 a 49 anos</option>
+            <option value="">50 a 59 anos</option>
+            <option value="">60 a 69 anos</option>
+            <option value="">70 anos ou mais</option>
+        </select>
+        <label for="">Cor/Raça</label>
+        <select name="" id="">
+            <option value="" selected disabled>Selecione</option>
+            <option value="">Branco</option>
+            <option value="">Preto</option>
+            <option value="">Pardo</option>
+            <option value="">Amarelo</option>
+            <option value="">Indígena</option>
+        </select>
+        <br/>
+        <label for="">DDD </label><input type="text" name="" id="" size="2" maxlength="2">
+        <label for="">Telefone:</label><input type="text" name="" id="" size="9" maxlength="9">
+        <br/>
+        <label for="">Email: *</label><input type="text" name="" id="" size="55" maxlength="25" required>
+        <br/>
+        <label for="">Confirme o Email: *</label><input type="text" name="" id="" size="44" maxlength="25" required>
+        <br/>
+        CEP: <input type="text" name="" id="" size="9" maxlength="9">
+        <button>Consultar CEP</button> <button>Limpar</button>
+        <br/>
+        <label for="">UF:</label>
+        <select name="uf" id="">
+            <option value="" selected disabled>Selecione</option>
+            <option value="">AC</option>
+            <option value="">AL</option>
+            <option value="">AM</option>
+            <option value="">AP</option>
+            <option value="">BA</option>
+            <option value="">CE</option>
+            <option value="">DF</option>
+            <option value="">ES</option>
+            <option value="">GO</option>
+            <option value="">MA</option>
+            <option value="">MG</option>
+            <option value="">MS</option>
+            <option value="">MT</option>
+            <option value="">PA</option>
+            <option value="">PB</option>
+            <option value="">PE</option>
+            <option value="">PI</option>
+            <option value="">PR</option>
+            <option value="">RJ</option>
+            <option value="">RN</option>
+            <option value="">RO</option>
+            <option value="">RR</option>
+            <option value="">RS</option>
+            <option value="">SC</option>
+            <option value="">SE</option>
+            <option value="">SP</option>
+            <option value="">TO</option>
+        </select>
+       <br/>
+       <label for="">Município: </label>
+        <select name="" id="">
+            <option value="" selected disabled>Selecione</option>
+        </select> 
+        <br/>
+        <label for="">Logradouro: </label><input type="text" name="" id="" size="26" maxlength="25"/> 
+        <label for="">Número: </label><input type="text" name="" id="" size="10" maxlength="25" required>
+        <br/>
+        <label for="">Complemento: </label><input type="text" name="" id="" size="49" maxlength="25"/>
+        <br/>
+        <label for="">Bairro: </label><input type="text" name="" id="" size="56" maxlength="25"/>
+        <br/>
+        Salvar meus dados <a href="#">(conheça seus direitos)</a> 
+    </form>
+    </div>
+</body>
+</html>
